@@ -1,0 +1,154 @@
+#pageTop {
+	background-size: 100% 96px;
+	background-color: #097ab2;
+	min-width: 750px;
+}
+h1 {
+	font-family: "Droid Sans", sans-serif;
+	font-size: 5em;
+	text-align: center;
+	color: #666;
+}
+#matches {
+	font-family: "Droid Sans", sans-serif;
+	font-size: 2em;
+	text-align: center;
+	color: #CCC;	
+}
+.tile {
+	border: 1px solid #CCC;
+	border-radius: 8px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 690px;
+	display: inline-block;
+	position: relative;
+}
+.pin {
+	margin-top: 20px;
+	margin-left: 25px;
+	display: inline-block;
+}
+.city {
+	font-family: "Droid Sans", sans-serif;
+	font-size: 2em;
+	color: #666;
+	display: inline-block;
+	margin-top: 0px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+.distance {
+	font-family: "Droid Sans", sans-serif;
+	font-size: 2em;
+	color: #999;
+	display: inline-block;
+	float: right;
+	margin-top: 13px;
+	margin-right: 30px;
+	margin-bottom: 10px;
+}
+.primaryImage {
+	position: absolute;
+	left: 0px;
+	top: 65px;
+
+}
+.secondaryImage {
+	border: 3px solid #CCC;
+	border-radius: 8px;
+	position: absolute;
+	left: 20px;
+	top: 270px;
+
+}
+.subtitle {
+	font-family: "Droid Sans", sans-serif;
+	font-size: 2em;
+	color: #666;
+	display: inline-block;
+	position: absolute;
+	top: 380px;
+	left: 260px;
+}
+.buttonImage {
+	width: 650px;
+	background-color: #097ab2;
+	color: #FFF;
+	font-family: "Droid Sans", sans-serif;
+	font-size: 3em;
+	border-radius: 8px;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	display: table;
+	margin: 0 auto;
+	margin-top: 430px;
+}
+.buttonImage .buttonText{
+	display: inline-block;
+}
+.firstHr {
+	border: 0;
+	height: 0;
+	width: 95%;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	margin-top: 20px;
+}
+.secondHr {
+	border: 0;
+	height: 0;
+	width: 95%;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	border-bottom: 1px solid rgba(255,255,255,0.3);	
+}
+.thirdHr {
+	border: 0;
+	height: 0;
+	width: 95%;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+.tab {
+	font-family: "Droid Sans", sans-serif;
+	font-size: 1.7em;
+	color: #666;
+	width: 57%;
+	margin: 0px 0px 0px 20px;
+	display: inline-block;
+}
+.tabOne {
+	font-family: "Droid Sans", sans-serif;
+	font-size: 1.7em;
+	color: #666;
+	width: 46%;
+	margin: 0px 0px 0px 20px;
+	display: inline-block;
+}
+.arrow {
+	position: relative;
+	left: 202px;
+}
+.arrowOne {
+	position: relative;
+	left: 285px;
+}
+h2 {
+	font-family: "Droid Sans", sans-serif;
+	font-size: 3em;
+	color: #097ab2;
+	display: inline-block;
+	margin-left: 240px;
+}
+#four {
+	height: 60px;
+	width: 60px;
+	margin-left: 20px;
+	margin-bottom: -15px;
+}
+@media screen and (max-width: 750px) {
+	.tile {
+		width: 750px;
+		height: 900px;
+	}
+}
