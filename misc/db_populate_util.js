@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGO_URL || 'mongodb://localhost/localTest_app');
+mongoose.connect(process.env.MONGO_URL || 'mongodb://localhost/localTest');
 
 var Business = require(__dirname + '/../models/business');
 var fs = require('fs');
