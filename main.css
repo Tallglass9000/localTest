@@ -19,6 +19,7 @@ h1 {
 	border: 1px solid #CCC;
 	border-radius: 8px;
 	margin-top: 10px;
+	margin-left: 15px;
 	margin-bottom: 10px;
 	width: 690px;
 	display: inline-block;
@@ -58,7 +59,7 @@ h1 {
 	border: 3px solid #CCC;
 	border-radius: 8px;
 	position: absolute;
-	left: 20px;
+	left: 30px;
 	top: 270px;
 
 }
@@ -72,7 +73,7 @@ h1 {
 	left: 260px;
 }
 .buttonImage {
-	width: 650px;
+	width: 630px;
 	background-color: #097ab2;
 	color: #FFF;
 	font-family: "Droid Sans", sans-serif;
